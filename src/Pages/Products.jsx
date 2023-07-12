@@ -6,8 +6,8 @@ export default function Products() {
     const [products, setProducts] = useState([])
 
     useEffect(() => {
-        // axios.get('https://dummyjson.com/products').then(json => setProducts(json.data.products))
-        axios.get('https://www.healthcare.gov/:post-title.json').then(json => setProducts(json.data.products))
+        axios.get('https://dummyjson.com/products').then(json => setProducts(json.data.products))
+
     }, [])
 
     return (

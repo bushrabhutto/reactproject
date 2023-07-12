@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import axios from 'axios'
-// import ReactStars from 'react-stars'
-// import Swal from 'sweetalert2'
+import ReactStars from 'react-stars'
+import Swal from 'sweetalert2'
 import Carousel from 'react-bootstrap/Carousel';
 
 
